@@ -1,4 +1,4 @@
-# emploi-go
+# mobile-react-maps
 
 ## Welcome to your Expo app 👋
 
