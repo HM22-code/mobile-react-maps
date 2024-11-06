@@ -1,24 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import MapView, { Marker } from 'react-native-maps';
+import MapView from '../../components/MyMap';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <MapView
-        style={styles.map}
-        customMapStyle={mapStyle}
-        initialRegion={{
-          latitude: 47.3178,
-          longitude: 5.0462,
-          latitudeDelta: 0.0422,
-          longitudeDelta: 0.0422,
-        }}
-      >
-        <Marker
-          coordinate={{latitude: 47.3178, longitude: 5.0462}}
-          title={"Mission Locale"}
-          description={"Local de la Mission Locale"}
-        />
+      <MapView>
       </MapView>
     </View>
   );
